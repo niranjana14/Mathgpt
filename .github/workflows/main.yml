@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Niranjanadevis:$HF_TOKEN@huggingface.co/spaces/Niranjanadevis/mathgpt main
+        run: git push --force https://Niranjanadevis:$HF_TOKEN@huggingface.co/spaces/Niranjanadevis/MathsGpt main
